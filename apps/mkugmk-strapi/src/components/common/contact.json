@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "segment": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

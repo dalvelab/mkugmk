@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_common_work_days",
+  "info": {
+    "displayName": "workDay",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "weekDay": {
+      "type": "enumeration",
+      "enum": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "required": true
+    },
+    "isClosed": {
+      "type": "boolean",
+      "required": true
+    },
+    "timeOpen": {
+      "type": "time",
+      "default": "10:00",
+      "required": true
+    },
+    "timeClose": {
+      "type": "time",
+      "default": "19:00",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mkugmk-strapi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "strapi develop",
+    "build": "strapi build",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.6.1",
+    "@strapi/plugin-users-permissions": "4.6.1",
+    "@strapi/strapi": "4.6.1",
+    "cyrillic-to-translit-js": "^3.2.1",
+    "pg": "^8.8.0",
+    "slugify": "^1.6.5"
+  }
+}

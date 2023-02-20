@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_tickets",
+  "info": {
+    "displayName": "Ticket",
+    "icon": "digital-tachograph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "museum": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::museum.museum"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
